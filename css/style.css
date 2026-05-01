@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: #faafaf !important ;
+  padding: 0;
+  margin: 0;
+}
+.user {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ffb86a;
+}
+main,main section {
+  background-color: #fff9ec !important;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  justify-content: space-between !important;
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
+main header {
+  background-color: #fff !important;
+}
+main header nav .icons i {
+  transition: all 0.4s;
+}
+main header nav .icons i:hover {
+  color: #f54900 !important;
+  cursor: pointer;
+}
+main header nav .logo .img i {
+  background-color: #f54900;
+  width: 50px;
+  height: 50px;
+}
+main section .card .row .card-body .head-card .head-icon i {
+  height: 50px;
+  width: 50px;
+  background-color: #ffedd4;
+  color: #f54900;
+}
+main section .card .row .card-body .head-card .head-icon i:hover {
+  background-color: #ffd6a7;
+}
+main section .card .row .card-body .alert {
+  border-left: 4px solid #fb2c36;
+}
+main section .card .row .card-body .alert h2 {
+  color: #9f0712;
+}
+main section .card .row .card-body .alert p {
+  font-size: 14px;
+}
+.nav-tabs .nav-link {
+  margin: 10px !important;
+  border: none !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #f54900 !important;
+  position: relative;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #f54900;
+}
+.nav-link {
+  color: #6a7282 !important;
+}
+.nav-link:hover {
+  color: #364153 !important;
+}
+main section .card .row{
+  height: 600px;
+}
+main section .card .row .img {
+  position: relative;
+  height: 100%;
+}
+main section .card .row .img .bottom-data {
+  position: absolute;
+  bottom: 3%;
+  left: 10%;
+}
+main section .card .row .img .top-data {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+main section .card .row .img .bottom-data .prep i {
+  color: #ff6900;
+}
+main section .card .row .card-body {
+  height: 560px;
+}
+main section .card .row .card-body .data-lists .tab-pane {
+  height: 330px;
+  scrollbar-width: thin;
+  scrollbar-color: #ffedd4;
+}
+main section .card .row .card-body .data-lists .tab-content ul.Ingredient {
+  background-color: #fff8ec;
+}
+main section .card .row .card-body .data-lists ul.list-unstyled li {
+  font-size: 13px;
+}
+main section .card .row .card-body .data-lists .num {
+  width: 20px;
+  height: 20px;
+  font-size: 13px;
+  background-color: #ff6900;
+}
+main section .card .row .card-body .data-lists .Instructions-list .num {
+  width: 50px;
+  height: 50px;
+}
+main section .card .row .card-body .data-lists .Instructions-list li:nth-child(1) .num{
+  width: 65px;
+}
+main section .card .row .card-body .data-lists .Instructions-list li:nth-child(5) .num{
+  width: 56px;
+}
+main section .card .row .card-body .data-lists .row .title i {
+  width: 40px;
+  height: 40px;
+  background-color: #ffedd4;
+  color: #f54900;
+}
+main section .card .row .card-body .data-lists .row .cards .inner {
+  background-color: #f9fafb;
+}
+main section .card .row .card-body .tips .tip {
+  background-color: #fffbeb;
+  border-left: 4px solid #ffb900;
+}
+main section .card .row .card-body .tips .tip i {
+  color: #e17100;
+}
+main section .card .row .card-body .button {
+  border-top: 1px solid #d6d4d4;
+}
+main section .card .row .card-body .button button {
+  background: linear-gradient(to right, #ff6900, #e90005);
+
+  transition: all 0.4s;
+}
+main section .card .row .card-body .button button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to right, #f34400, #cd0205);
+}

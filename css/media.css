@@ -1,0 +1,16 @@
+@media screen and (min-width: 300px) and (max-width: 720px) {
+  main section .card .row .col-md-7 {
+    border-radius: 0px 0px 30px 30px !important;
+  }
+  main section .card .row .img img{
+    border-radius: 30px 30px 0px 0px !important;
+
+  }
+    body {
+          background-color: #fff9ec !important;
+
+    }
+    main section .card .row .img .bottom-data {
+        left: 5%;
+    }
+}
