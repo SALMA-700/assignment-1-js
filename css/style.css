@@ -1,9 +1,25 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scrollbar-color: #faafaf !important ;
   padding: 0;
   margin: 0;
+  
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #fe886a4d, #fe886a4d) !important;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #6d030a !important;
 }
 .user {
   width: 50px;
@@ -22,8 +38,8 @@ main,main section {
 main header {
   background-color: #fff !important;
 }
-main header nav .icons i {
-  transition: all 0.4s;
+main header nav .icons i ,main header nav .profile .icons .i span  {
+  transition: all 0.3s;
 }
 main header nav .icons i:hover {
   color: #f54900 !important;
@@ -33,6 +49,11 @@ main header nav .logo .img i {
   background-color: #f54900;
   width: 50px;
   height: 50px;
+}
+main header nav .profile .icons .i:hover span, main header nav .profile .icons .i:hover i ,main header nav .profile .user:hover span{
+  color: #e17100 !important;
+  cursor: pointer;
+
 }
 main section .card .row .card-body .head-card .head-icon i {
   height: 50px;
@@ -102,8 +123,7 @@ main section .card .row .card-body {
 }
 main section .card .row .card-body .data-lists .tab-pane {
   height: 330px;
-  scrollbar-width: thin;
-  scrollbar-color: #ffedd4;
+ 
 }
 main section .card .row .card-body .data-lists .tab-content ul.Ingredient {
   background-color: #fff8ec;
@@ -127,6 +147,16 @@ main section .card .row .card-body .data-lists .Instructions-list .num {
 main section .card .row .card-body .data-lists .Instructions-list li:nth-child(5) .num{
   width: 56px;
 } */
+ .navbar-toggler i:hover{
+  color: #f34400;
+ }
+ .navbar-toggler:focus , .navbar-toggler {
+  box-shadow: none;
+  border: none;
+ }
+ .navbar-toggler-icon{
+  background-image: none;
+ }
 main section .card .row .card-body .data-lists .row .title i {
   width: 40px;
   height: 40px;

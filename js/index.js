@@ -910,7 +910,7 @@ function replace() {
   image.src = `${recipe[random].img}`;
 
   for (var i = 0; i < recipe[random].IngredientList.length; i++) {
-    Ingredient.innerHTML += `<li class="d-flex gap-2 mb-3 fs-6 align-items-center my-2">
+    Ingredient.innerHTML += `<li class="d-flex gap-2 mb-2 fs-6 align-items-center my-2">
                           <h4
                             class="num mb-0 text-white rounded-circle d-flex align-items-center justify-content-center"
                           >
