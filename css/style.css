@@ -77,7 +77,7 @@ main section .card .row .card-body .alert p {
 .nav-link:hover {
   color: #364153 !important;
 }
-main section .card .row{
+main section .card>.row{
   height: 600px;
 }
 main section .card .row .img {
@@ -121,12 +121,12 @@ main section .card .row .card-body .data-lists .Instructions-list .num {
   width: 50px;
   height: 50px;
 }
-main section .card .row .card-body .data-lists .Instructions-list li:nth-child(1) .num{
+/* main section .card .row .card-body .data-lists .Instructions-list li:nth-child(1) .num{
   width: 65px;
 }
 main section .card .row .card-body .data-lists .Instructions-list li:nth-child(5) .num{
   width: 56px;
-}
+} */
 main section .card .row .card-body .data-lists .row .title i {
   width: 40px;
   height: 40px;
